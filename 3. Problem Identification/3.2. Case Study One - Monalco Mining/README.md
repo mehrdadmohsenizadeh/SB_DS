@@ -1,6 +1,6 @@
 
 
-<img src="path/to/your/image.jpg" alt="<b>Figure 1.</b> Monalco Mining Case">
+<img src="img/monalco_mining.jpg" alt="<b>Figure 1.</b> Monalco Mining Case">
 
 As a budding data scientist on the Insights & Analytics (IA) team, it is critical that you
 know how to clearly structure a problem and break it down into manageable parts. You
