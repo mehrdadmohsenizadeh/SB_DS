@@ -1,5 +1,12 @@
-<html>
- <h1>Nordic Sensing Co. Case Study Overview</h1>
+<h1>Nordic Sensing Co.: Case Study Overview</h1>
+
+<p align="center">
+  <img src="img/nordic_sensing_sensor.png" width="600">
+  <br>
+  <b>Figure 1.</b> A sensor manufactured by Nordic Sensing.
+</p>
+
+<p align="justify">
 It is your first week on the job as an entry-level data scientist (Jane Smith in this
 scenario) at Nordic Sensor Company (NSC), a top-five player in the IoT sensor space
 focusing on energy consumption and production. You have been staffed on the
@@ -19,4 +26,4 @@ The company needs to know which manufacturer to shutdown or parts supplier to st
 buying from in order to get the failure rate back down below 5%. Think about how you
 can frame the problem to identify the culprit of the increase in sensor failures. There is also an organizational chart below the email exchange to help you identify the key
 people you need to communicate with and work with while solving this problem.
-</html>
+</p>
