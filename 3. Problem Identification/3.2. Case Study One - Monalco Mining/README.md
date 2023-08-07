@@ -1,6 +1,6 @@
 
 
-<img src="3. Problem Identification/3.2. Case Study One - Monalco Mining/img/monalco_mining.jpg" alt="<b>Figure 1.</b> Monalco Mining Case">
+<img src="3. Problem Identification/3.2. Case Study One - Monalco Mining/img/monalco_mining.png" alt="<b>Figure 1.</b> Monalco Mining Case">
 
 As a budding data scientist on the Insights & Analytics (IA) team, it is critical that you
 know how to clearly structure a problem and break it down into manageable parts. You
