@@ -1,6 +1,14 @@
 
 
-![Alt Text](img/monalco_mining.png)
+<html>
+<head>
+    <title>Resize Image with CSS</title>
+</head>
+
+  <body>
+    <h1>My Web Page</h1>
+    <img src="img/monalco_mining.png" alt="Figure 1. Monalco Mining Site">
+  </body>
 
 As a budding data scientist on the Insights & Analytics (IA) team, it is critical that you
 know how to clearly structure a problem and break it down into manageable parts. You
@@ -13,3 +21,5 @@ you have learned throughout the Problem Identification unit and further emphasiz
 value of these tools. Your team lead, Chris, has forwarded you emails with additional
 information gathered by the maintenance subject matter experts, Tara and Bruce, to
 help with the project.
+</body>
+</html>
