@@ -1,12 +1,8 @@
 
 
 <html>
-<head>
-    <title>Resize Image with CSS</title>
-</head>
-
   <body>
-    <h1>My Web Page</h1>
+    <h1>Monalco Mining</h1>
     <img src="img/monalco_mining.png" alt="Figure 1. Monalco Mining Site">
   </body>
 
