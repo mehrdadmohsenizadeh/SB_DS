@@ -1,4 +1,8 @@
-
+<p align="center">
+  <img src="img/uk_house_price_index_for_august_2022.png" width="600">
+  <br>
+  <b>Figure 1.</b> A view of Monalco Mining site.
+</p>
 
 
 <h1>Project Overview</h1>
