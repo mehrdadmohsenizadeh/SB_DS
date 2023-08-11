@@ -1,3 +1,5 @@
+<img src="/img/uk_house_price_index_for_august_2022.jpg" alt="UK House Price Index">
+
 <h1>Dataset</h1>
 Please download the dataset from here:
 <a href="https://data.london.gov.uk/download/uk-house-price-index/70ac0766-8902-4eb5-aab5-01951aaed773/UK%20House%20price%20index.xls">UK House Price Index dataset (.xls file)</a>
