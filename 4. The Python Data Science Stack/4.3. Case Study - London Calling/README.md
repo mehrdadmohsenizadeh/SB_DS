@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="img/uk_house_price_index_for_august_2022.png" width="600">
+  <img src="img/uk_house_price_index_for_august_2022.png" width="300">
   <br>
-  <b>Figure 1.</b> A view of Monalco Mining site.
+  <b>Figure 1.</b> Case Study: UK House Price Index
 </p>
 
 
