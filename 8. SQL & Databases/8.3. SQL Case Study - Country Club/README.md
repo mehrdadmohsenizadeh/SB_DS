@@ -1,13 +1,17 @@
-Instructions
-Work locally via Python + SQLite
-If you want to try work locally by executing your SQL queries directly on the sqlite_db_pythonsqlite.db database file then you can work with the LocalSQLConnection.py python script. Open the file SQLTasks Tier 1.sql for more a list of the questions we want to try answer.
+# Instructions
+## Work locally via Python + SQLite
+If you want to try work locally by executing your SQL queries directly on the <code>sqlite_db_pythonsqlite.db</code> database file then you can work with the <code>LocalSQLConnection.py</code> python script. Open the file <code>SQLTasks Tier 1.sql</code> for more a list of the questions we want to try answer.
 
 There is already an example query in the file so if you just run the python script you should see something like:
 
+```python
 # execute the python script
 python LocalSQLConnection.py
+```
+  
 Results should look like:
 
+<pre>
 2.6.0
 2. Query all tasks
 (0, 'Tennis Court 1', 5, 25, 10000, 200)
@@ -20,3 +24,4 @@ Results should look like:
 (7, 'Snooker Table', 0, 5, 450, 15)
 (8, 'Pool Table', 0, 5, 400, 15)
 If you see this then things are working and you should be able to edit the file to add in any queries you want.
+</pre>
