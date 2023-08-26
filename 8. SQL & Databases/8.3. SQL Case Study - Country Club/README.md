@@ -1,5 +1,5 @@
 # Instructions
-## Work locally via Python + SQLite
+## 1. Work locally via Python + SQLite
 If you want to try work locally by executing your SQL queries directly on the <code>sqlite_db_pythonsqlite.db</code> database file then you can work with the <code>LocalSQLConnection.py</code> python script. Open the file <code>SQLTasks Tier 1.sql</code> for more a list of the questions we want to try answer.
 
 There is already an example query in the file so if you just run the python script you should see something like:
@@ -25,3 +25,13 @@ Results should look like:
 (8, 'Pool Table', 0, 5, 400, 15)
 If you see this then things are working and you should be able to edit the file to add in any queries you want.
 </pre>
+
+If you see this then things are working and you should be able to edit the file to add in any queries you want. 
+
+
+## 2. Work online via https://sql.springboard.com/
+
+If you want to just log in somewhere and write SQL (no python involved) then you can go to <code>https://sql.springboard.com/</code> log in with <code>Username=student</code> and <code>Password=[see_readme_file]</code> and write and work on your SQL queries in there. Open the file <code>SQLTasks Tier 1.sql</code> for more a list of the questions we want to try answer and more information and instructions.
+
+
+
