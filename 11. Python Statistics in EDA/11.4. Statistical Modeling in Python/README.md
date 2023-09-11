@@ -20,7 +20,7 @@ Module 4 of Chapter 11 in the course involves two case studie, including:
       The Boston Housing Dataset contains information about housing in Boston, Massachusetts. It includes features like crime rates, property tax, and the median value of owner-occupied homes in various Boston neighborhoods.
     </td>
     <td>
-      <a href="link-to-boston-housing">Boston Housing</a>
+      <a href="link-to-boston-housing">-</a>
     </td>
   </tr>
 </table>
