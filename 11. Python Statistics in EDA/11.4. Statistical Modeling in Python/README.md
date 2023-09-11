@@ -1,9 +1,9 @@
 Module 4 of Chapter 11 in the course involves two case studie, including:
 <table>
   <tr>
-    <th>Dataset</th>
+    <th>Case study</th>
     <th>Description</th>
-    <th>Link</th>
+    <th>Dataset link</th>
   </tr>
   <tr>
     <td>Wine Dataset</td>
@@ -15,12 +15,13 @@ Module 4 of Chapter 11 in the course involves two case studie, including:
     </td>
   </tr>
   <tr>
-    <td>Boston Housing</td>
+    <td>Boston Housing<br><i>[OPTIONAL]</i></td>
     <td>
       The Boston Housing Dataset contains information about housing in Boston, Massachusetts. It includes features like crime rates, property tax, and the median value of owner-occupied homes in various Boston neighborhoods.
     </td>
     <td>
-      <a href="http://lib.stat.cmu.edu/datasets/boston"><code>boston</code></a>
+      <a href="http://lib.stat.cmu.edu/datasets/boston"><code>boston</code></a> (original dataset)
+       <a href="https://scikit-learn.org/1.0/modules/generated/sklearn.datasets.load_boston.html"><code>sklearn.datasets.load_boston</code></a>
     </td>
   </tr>
 </table>
