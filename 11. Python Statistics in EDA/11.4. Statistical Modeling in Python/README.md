@@ -11,7 +11,7 @@ Module 4 of Chapter 11 in the course involves two case studie, including:
       The Wine Dataset is a collection of data related to different varieties of wine. It includes various features such as chemical properties, which can be used to classify wines into different classes or types.
     </td>
     <td>
-      <a href="link-to-wine-dataset">Wine Dataset</a>
+      <a href="[link-to-wine-dataset](https://github.com/mehrdadmohsenizadeh/SB_DS/blob/main/11.%20Python%20Statistics%20in%20EDA/11.4.%20Statistical%20Modeling%20in%20Python/11.4.1.%20Wine%20Dataset/wineQualityReds.csv)">Wine Dataset</a>
     </td>
   </tr>
   <tr>
