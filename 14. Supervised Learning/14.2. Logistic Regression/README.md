@@ -122,7 +122,7 @@
       <td>ST slope at peak exercise</td>
       <td>
         Describes the slope of the ST segment on an Electrocardiogram (ECG) at the peak of exercise. This feature can provide valuable information about heart function during exercise. Here are the explanations for each of the three distinct values:<br><br>
-        <code>1</code><b> Upsloping</b> or <b>Normal:</b><br>An upsloping ST segment indicates that the ST segment on the ECG shows a gradual and positive slope as the heart rate increases during exercise. This pattern is generally considered normal and may not be indicative of significant cardiac abnormalities. It suggests that the heart's blood supply is well-maintained during physical exertion.<br><br>
+        <code>1</code><b> Upsloping</b> or <b>Normal:</b><br>An upsloping ST segment indicates that the ST segment on the ECG shows a gradual and positive slope as the heart rate increases during exercise. This pattern is generally considered normal and may not be indicative of significant cardiac abnormalities. It suggests that the heart's blood supply is well-maintained during physical exertion.<br>
 
 <code>2</code><b> Flat:</b><br> A flat ST segment means that there is little to no change in the ST segment's elevation during exercise. This can be a less common pattern and might warrant further evaluation. While it may not necessarily indicate a specific issue, it could be a sign of potential cardiac stress or abnormalities that require closer examination.
 
@@ -137,7 +137,26 @@
     <tr>
       <td><code>defect_diag</code></td>
       <td>Heart defect diagnosis</td>
-      <td>Specifies the type of heart defect or diagnosis. This feature can help classify specific cardiac conditions or abnormalities.</td>
+      <td>
+      Specifies the type of heart defect or diagnosis. This feature can help classify specific cardiac conditions or abnormalities.<br><br>
+      <code>1</code> <b>Atrial Septal Defect (ASD):</b> A hole in the wall (septum) that separates the two upper chambers (atria) of the heart.</li><br><br>
+      <code>2</code> <b>Ventricular Septal Defect (VSD):</b><br>
+      A hole in the septum that separates the two lower chambers (ventricles) of the heart.</li><br><br>
+      <code>3</code> <b>Patent Ductus Arteriosus (PDA):</b><br>
+      A persistent opening between two major blood vessels near the heart that should typically close after birth.</li><br><br>
+      <code>4</code> <b>Tetralogy of Fallot (TOF):</b><br>
+      A complex congenital heart condition that involves multiple defects, including a ventricular septal defect, pulmonary stenosis, right ventricular hypertrophy, and an overriding aorta.</li><br><br>
+      <code>5</code> <b>Coarctation of the Aorta:</b><br>
+      A narrowing of the aorta, the major blood vessel that carries oxygenated blood from the heart to the body.</li><br><br>
+      <code>6</code> <b>Transposition of the Great Arteries:</b><br>
+      A condition where the two main arteries, the aorta and the pulmonary artery, are switched in position.</li><br><br>
+      <code>7</code> <b>Hypoplastic Left Heart Syndrome (HLHS):</b><br>
+      A severe congenital defect where the left side of the heart is underdeveloped.</li><br><br>
+      <code>8</code> <b>Ebstein's Anomaly:</b><br>
+      An abnormality of the tricuspid valve, which separates the right atrium from the right ventricle.</li><br><br>
+      <code>9</code> <b>Double Outlet Right Ventricle (DORV):</b><br>
+      A condition where both the aorta and the pulmonary artery arise from the right ventricle.</li><br><br>
+      </td>
     </tr>
     <tr>
       <td><code>heart_disease</code></td>
