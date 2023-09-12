@@ -51,7 +51,7 @@
 
 <code>3</code> <b>Non-Anginal Pain:</b><br> Non-anginal chest pain is chest discomfort or pain that is not related to the heart. It can have various causes, such as musculoskeletal issues, gastrointestinal problems, or anxiety. This type of chest pain is typically not associated with coronary artery disease.<br><br>
 
-<code>4</code> <b>Asymptomatic:</b><br> Patients with a value of 4 in the "chest_pain_value" column are considered asymptomatic, meaning they do not experience any chest pain or discomfort. This category indicates that the patient does not report chest pain as a symptom.
+<code>4</code> <b>Asymptomatic:</b><br> Patients with a value of 4 are considered asymptomatic, meaning they do not experience any chest pain or discomfort. This category indicates that the patient does not report chest pain as a symptom.
       </td>
     </tr>
     <tr>
