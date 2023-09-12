@@ -23,7 +23,9 @@ The <a href="https://archive.ics.uci.edu/dataset/45/heart+disease">original data
 
 <h2> Overview </h2>
 
-<table>
+<link rel="stylesheet" type="text/css" href="/data/styles.css">
+
+<table class="custom-table">
   <tr>
     <th>Feature</th>
     <th>Description</th>
