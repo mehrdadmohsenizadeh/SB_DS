@@ -58,12 +58,17 @@
       <td><code>resting_BP_mm_Hg</code></td>
       <td>Resting blood pressure</td>
       <td>
-      Represents the patient's resting blood pressure measured in millimeters of mercury or <code>(mmHg</code>. High blood pressure is a common risk factor for heart disease.<br><br>
-      <code>< 90</code> <b>Low:</b><br><br>
-      <code>(90, 119)</code> <b>Normal:</b><br><br>
-      <code>(120, 139)</code> <b>Prehypertension:</b><br><br>
-      <code>(140, 159)</code> <b>Hypertension (stage 1):</b><br><br>
-      <code>> 160</code> <b>Hypertension (stage 2):</b>
+      Represents the patient's resting blood pressure measured in millimeters of mercury or <code>(mmHg</code>. High blood pressure is a common risk factor for heart disease. Each blood value pair below represents <code>((diastolic), (systolic))</code>:<br><br>
+      <code>((< 60), (< 90))</code> <b>Low:</b><br>
+      <i>AKA</i> hypotension, generally indicates a blood pressure level that is lower than what is considered normal for most individuals.<br><br>
+      <code>((60, 80), (90, 120))</code> <b>Normal:</b><br>
+      Normal blood pressure levels are within the healthy range and are associated with a lower risk of cardiovascular disease.<br><br>
+      <code>((80, 89), (120, 139))</code> <b>Prehypertension:</b><br>
+      Prehypertension is a category that indicates blood pressure levels that are higher than normal but do not yet meet the criteria for hypertension.<br><br>
+      <code>((90, 99), (140, 149))</code> <b>Hypertension (stage 1):</b><br>
+      Indicates the first stage of high blood pressure.<br><br>
+      <code>((> 100), (> 160))</code> <b>Hypertension (stage 2):</b><br>
+      Represents a more advanced stage of high blood pressure.
       </td>
     </tr>
     <tr>
@@ -71,9 +76,12 @@
       <td>Cholesterol level</td>
       <td>
       Indicates the patient's cholesterol level in milligrams per deciliter or <code>mg/dl</code>. Elevated cholesterol levels can contribute to the development of atherosclerosis, a leading cause of heart disease.<br><br>
-      <code>< 200</code> <b>Desirable:</b><br><br>
-      <code>(200, 239)</code> <b>Borderline High:</b><br><br>
-      <code>> 240</code> <b>High:</b>
+      <code>< 200</code> <b>Desirable:</b><br>
+      Typically refers to levels that are considered healthy and associated with a lower risk of heart disease.<br><br>
+      <code>(200, 240)</code> <b>Borderline High:</b><br>
+      Suggests that the patient's cholesterol levels are moderately elevated and may warrant closer monitoring or lifestyle modifications.<br><br>
+      <code>> 240</code> <b>High:</b><br>
+      Indicates that the patient has elevated cholesterol, which can be a risk factor for heart disease.
       </td>
     </tr>
     <tr>
