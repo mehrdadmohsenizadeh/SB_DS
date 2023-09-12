@@ -54,13 +54,11 @@ The <a href="https://archive.ics.uci.edu/dataset/45/heart+disease">original data
     <td><code>resting_BP_mm_Hg</code></td>
     <td>Resting blood pressure (mm Hg).</td>
     <td>
-      <ul>
-        <li><code>< 90</code> (Low)</li>
-        <li><code>(90, 119)</code> (Normal)</li>
-        <li><code>(120, 139)</code> (Prehypertension)</li>
-        <li><code>(140, 159)</code> (Stage 1 Hypertension)</li>
-        <li><code>> 160</code> (Stage 2 Hypertension)</li>
-        </ul>
+      <code>< 90</code> (Low)<br>
+      <code>(90, 119)</code> (Normal)<br>
+      <code>(120, 139)</code> (Prehypertension)<br>
+      <code>(140, 159)</code> (Stage 1 Hypertension)<br>
+      <code>> 160</code> (Stage 2 Hypertension)
     </td>
     <td>Represents the patient's resting blood pressure measured in millimeters of mercury (mm Hg). High blood pressure is a common risk factor for heart disease.</td>
   </tr>
