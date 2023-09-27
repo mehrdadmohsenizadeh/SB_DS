@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="img/heart-disease.jpg" width="300">
+  <br>
+</p>
+
 <h1> Introduction </h1>
 
 * This notebook is intended to be a general reference that can be used when working on building models for practical applications that are modeled as classification problems. As such, it contains general data science and programming patterns that can be used in many (classification) scenarios. However, it also contains some comments that are applicable to general supervised problems (i.e., regression and classification).
