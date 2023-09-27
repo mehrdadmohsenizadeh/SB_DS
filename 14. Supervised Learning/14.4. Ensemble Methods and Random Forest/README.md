@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="img/covid-19.png.png" width="300">
+  <img src="img/covid-19.png" width="600">
   <br>
-  <b>Figure 1.</b> Case Study: COVID-19
 </p>
 
 # Case Study - Random Forest
