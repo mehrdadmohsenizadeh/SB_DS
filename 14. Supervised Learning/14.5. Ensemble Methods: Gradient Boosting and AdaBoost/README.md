@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/titanic.png" width="600">
+  <img src="img/titanic.jpg" width="600">
   <br>
 </p>
 
