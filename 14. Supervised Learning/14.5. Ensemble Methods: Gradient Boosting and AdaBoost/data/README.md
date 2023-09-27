@@ -1,6 +1,6 @@
 # Dataset
 
-The <a href="https://www.kaggle.com/competitions/titanic/data">Titanic dataset</a> is a popular dataset in the field of data science and machine learning, often used for practice and educational purposes. It contains information about passengers who were aboard the RMS Titanic when it sank on its maiden voyage in 1912. The dataset is commonly used for predictive modeling tasks, such as predicting whether a passenger survived or not based on various features. Here are the columns (variables) typically found in the Titanic dataset:
+The <a href="https://www.kaggle.com/competitions/titanic/data"><b>Titanic dataset</b></a> is a popular dataset in the field of data science and machine learning, often used for practice and educational purposes. It contains information about passengers who were aboard the RMS Titanic when it sank on its maiden voyage in 1912. The dataset is commonly used for predictive modeling tasks, such as predicting whether a passenger survived or not based on various features. Here are the columns (variables) typically found in the Titanic dataset:
 
 <table border="1">
     <tr>
