@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="img/RRDinercoffeee.jpg" width="600">
+  <br>
+</p>
+
 # Case Study: RRDinerCoffeeData 
 In this case study, you’ll become the lead data scientist for an up-and-coming specialty coffee company seeking to use customer data to justify critically important business decisions. 
 
