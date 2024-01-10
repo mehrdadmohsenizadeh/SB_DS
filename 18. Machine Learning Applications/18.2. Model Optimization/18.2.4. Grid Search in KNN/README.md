@@ -9,7 +9,7 @@ The datasets consists of several medical predictor variables and one target vari
   <tr>
     <th>Predictor/Target Variables</th>
     <th>Description</th>
-    <th>Examples</th>
+    <th>Example values</th>
   </tr>
   <tr>
     <td><b><code>Pregnancies</code></b></td>
@@ -54,7 +54,7 @@ The datasets consists of several medical predictor variables and one target vari
   <tr>
     <td><b><code>Outcome</code></b></td>
     <td>Categorical variable indicating diagnosis of diabetes (1) or not (0).</td>
-    <td><b><code>0</code></b> (No diabetes), <b><code>1</code></b> (Diabetes)</td>
+    <td><b><code>0</code></b> (No diabetes)<br><b><code>1</code></b> (Diabetes)</td>
   </tr>
 </table>
 
