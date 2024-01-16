@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="img/logo_cowboy_cigarettes_FINAL.png" alt="Cowboy Cigarettes Pack. Designed by DALL-E." width="300px"></img>
+  <img src="img/logo_cowboy_cigarettes_FINAL.png" width="300px"></img>
   <br>
+  <b>Figure 1.</b> Cowboy Cigarettes Pack. Designed artificially by DALL-E.
 </p>
 
