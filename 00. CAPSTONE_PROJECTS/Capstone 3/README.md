@@ -47,4 +47,8 @@
 </body>
 </html>
 
-<video src='https://waymo.com/static/images/dataset/home-anim-transparent.webm' width=180/>
+<p align="center">
+  <video src="vid/waymo_official.mp4" width="700px">
+  <br>
+  <b>Video 1.</b> <a href="https://waymo.com/open/">Waymo Dataset</a>
+</p>
