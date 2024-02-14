@@ -1,5 +1,5 @@
+# Project Structure
 <body>
-
 <table border="1">
   <tr>
     <th><font size="4"><b>Step</b></font></th>
@@ -43,9 +43,11 @@
     <td>Submit a slide deck or PowerPoint presentation with 10-20 slides. You can use any standard presentation tools (e.g. Powerpoint, Keynote, Google Slides) to create your deck. Please give the presentation an appropriate title, such as Capstone_Final_Slides or Capstone_Presentation.</td>
   </tr>
 </table>
-
 </body>
-</html>
+
+<br>
+
+# Waymo Open Dataset
 
 <p align="center">
   <img src="img/waymo_official.gif" width="400px"></img>
