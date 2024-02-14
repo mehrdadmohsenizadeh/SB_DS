@@ -48,7 +48,7 @@
 </html>
 
 <p align="center">
-  <video src="vid/waymo_official.mp4" width="700px"></video>
+  <img src="img/waymo_official.gif" width="400px"></img>
   <br>
   <b>Video 1.</b> <a href="https://waymo.com/open/">Waymo Dataset</a>
 </p>
