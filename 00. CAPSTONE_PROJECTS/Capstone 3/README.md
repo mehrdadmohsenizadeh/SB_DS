@@ -35,7 +35,7 @@
   <tr>
     <td><a href="#">Documentation</a></td>
     <td>28.1</td>
-    <td>The final step of your second capstone will be to present your findings using the data storytelling techniques you learned about earlier in this course. Review the results and finalize your code and its documentation.</td>
+    <td>The final step of your third and final capstone will be to present your findings using the data storytelling techniques you learned about earlier in this course. Review the results and finalize your code and its documentation.</td>
   </tr>
   <tr>
     <td><a href="#">Presentation</a></td>
