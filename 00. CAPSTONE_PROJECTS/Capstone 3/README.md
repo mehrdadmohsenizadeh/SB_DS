@@ -8,7 +8,7 @@
   </tr>
   <tr>
     <td><a href="#">Project Ideas & Proposal</a></td>
-    <td>24.4</td>
+    <td>24.4.1. <br> 24.4.2.</td>
     <td>1. Find three datasets and brainstorm project ideas related to those datasets. Please note that you can also combine two or more datasets to answer a single project question.<br><br>
     2. With your project ideas narrowed down to one, write up a project proposal! </td>
   </tr>
