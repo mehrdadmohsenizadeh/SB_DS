@@ -50,7 +50,7 @@
 # Waymo Open Dataset
 
 <p align="center">
-  <img src="img/waymo1.gif" width="600px"></img>
+  <img src="img/waymo_1000.gif" width="600px"></img>
   <br>
   <b>Video 1.</b> <a href="https://waymo.com/open/">Waymo Dataset</a>
 </p>
