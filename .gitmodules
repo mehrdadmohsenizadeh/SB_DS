@@ -1,0 +1,3 @@
+[submodule "00_capstone_projects/capstone_3/dataset/waymo-open-dataset"]
+	path = 00_capstone_projects/capstone_3/dataset/waymo-open-dataset
+	url = https://github.com/waymo-research/waymo-open-dataset.git
