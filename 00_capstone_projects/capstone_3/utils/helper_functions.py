@@ -1,3 +1,73 @@
+# -----------------------------------------------------------------------------
+#                                   General
+# -----------------------------------------------------------------------------
+import io, glob, time, math, copy, logging, warnings, itertools, zlib, subprocess, pkg_resources
+
+from functools import partial
+
+import numpy as np
+from scipy.stats.distributions import chi2
+from sklearn.preprocessing import RobustScaler, StandardScaler, QuantileTransformer
+
+import json
+from pprint import pprint
+from easydict import EasyDict as edict
+
+import google.protobuf
+from google.colab import drive, files
+
+# from utils import get_data, calculate_iou, check_results
+# -----------------------------------------------------------------------------
+#                            Waymo Open Dataset
+# -----------------------------------------------------------------------------
+import waymo_open_dataset
+from waymo_open_dataset import dataset_pb2, label_pb2
+from waymo_open_dataset.utils import frame_utils, transform_utils, range_image_utils
+# -----------------------------------------------------------------------------
+#                                TensorFlow
+# -----------------------------------------------------------------------------
+import tensorflow as tf
+import tensorflow_io as tfio
+# -----------------------------------------------------------------------------
+#                                Matplotlib
+# -----------------------------------------------------------------------------
+import matplotlib
+from matplotlib import colors
+import matplotlib.pyplot as plt
+from matplotlib.path import Path
+import matplotlib.ticker as ticker
+import matplotlib.patches as patches
+from matplotlib.patches import Rectangle
+from matplotlib.transforms import Affine2D
+from mpl_toolkits.axes_grid1 import ImageGrid
+from matplotlib.animation import FuncAnimation
+
+# change backend so that figure maximizing works on Mac as well
+# matplotlib.use('wxagg')
+# -----------------------------------------------------------------------------
+#                                Visualization
+# -----------------------------------------------------------------------------
+import IPython
+from IPython.display import HTML, Image, display
+
+import open3d as o3d
+# from open3d import JVisualizer
+# from open3d.j_visualizer import JVisualizer
+
+from shapely.geometry import Polygon
+
+# from PIL import Image
+
+# DisabledFunctionError: cv2.imshow() is disabled in Colab, because it causes Jupyter sessions
+# to crash; see https://github.com/jupyter/notebook/issues/3935.
+# As a substitution, consider using:
+# import cv2
+# from google.colab.patches import cv2_imshow
+
+
+# =============================================================================
+#                             show_camera_image
+# =============================================================================
 def show_camera_image(
       camera_image
     , camera_labels
@@ -81,8 +151,9 @@ def show_camera_image(
 
     plt.grid(False)
     plt.axis('off')
-
-
+# =============================================================================
+#                         show_camera_image_stitched
+# =============================================================================
 def show_camera_image_stitched(
       fig
     , ax
@@ -172,8 +243,9 @@ def show_camera_image_stitched(
 
     ax.grid(False)
     ax.axis('off')
-
-
+# =============================================================================
+#                         get_camera_labels_by_name
+# =============================================================================
 def get_camera_labels_by_name(
       frame
     , camera_name
@@ -219,8 +291,9 @@ def get_camera_labels_by_name(
         raise AttributeError("The provided 'frame' object does not have a 'camera_labels' attribute.")
 
     return None
-
-
+# =============================================================================
+#                        print_camera_labels_by_names
+# =============================================================================
 def print_camera_labels_by_names(
       frame
     , camera_names
@@ -261,8 +334,9 @@ def print_camera_labels_by_names(
                 print('-'*30)
         else:
             print(f"Camera labels for {camera_name} not found in the frame.")
-
-
+# =============================================================================
+#                               parse_frame
+# =============================================================================
 def parse_frame(
       frame
     , camera_name = 'FRONT'
@@ -314,8 +388,9 @@ def parse_frame(
         raise ValueError(f"No image data found for camera named {camera_name}.")
 
     return encoded_jpeg, annotations
-
-
+# =============================================================================
+#                              camera_frames
+# =============================================================================
 def camera_frames(
       class_colormap
     , ncols              = 5
@@ -459,8 +534,9 @@ def camera_frames(
         raise
 
     return images, annotations_list, num_frames
-
-
+# =============================================================================
+#                                 update
+# =============================================================================
 def update(
         ax
       , frame
@@ -538,8 +614,9 @@ def update(
         artists.append(rect)
 
     return artists
-
-
+# =============================================================================
+#                           animation_pipeline
+# =============================================================================
 def animation_pipeline(
           class_colormap
         , gsutil_uri
